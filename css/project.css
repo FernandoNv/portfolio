@@ -1,0 +1,72 @@
+.cards{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    max-width: 370px;
+    background-color: var(--blue-color);
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.card-link{
+    text-decoration-color: var(--blue-color);
+    color: var(--dark-color);
+}
+
+
+.card-image{
+    overflow: hidden;
+}
+
+.card-image img:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.card-image img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.card-content{
+    padding: 2em;
+}
+
+.card-content-title{
+    font-size: 2em;
+}
+
+.card-content-title .card-link:hover{
+    text-decoration-color: var(--dark-color);
+    transition: 0.7s;
+}
+
+.card-content-company{
+    font-size: 1.5em;
+    color: #CEEBEE;
+}
+
+.card-content-text{
+    font-size: 1.3em;
+    color: #DBDBDB;
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 501px){
+    .card-content-title{
+        font-size: 2.3em;
+    }
+
+    .card-content-company{
+        font-size: 1.6em;
+    }
+
+    .card-content-text{
+        font-size: 1.5em;
+    }
+}
