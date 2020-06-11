@@ -71,7 +71,7 @@ img{
 }
 
 .header .logo-top{
-    height: 85%;
+    height: 50px;
 }
 
 .menu ul{
@@ -224,6 +224,7 @@ img{
 
 .project-description p{
     text-align: center;
+    padding: 1em;
 }
 
 .project-description a{
@@ -243,6 +244,7 @@ img{
 .project-tile{
     font-size: 1.3rem;
     color: var(--green-color);
+    padding: 0 1em;
 }
 
 
@@ -325,6 +327,14 @@ img{
 
     .description{
         font-size: 1rem;
+    }
+
+    .project-tile{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .p-text{
+        font-size: 1.3em !important;
     }
 }
 

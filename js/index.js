@@ -13,6 +13,5 @@ index_projects.forEach((e, i) => {
         </div>
     </div>
     `;
-    console.log(e);
     projects_area.innerHTML += template;
 });
